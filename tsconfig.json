@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "baseUrl": "src"
+    },
+    "include": [
+      "src/**/*.ts","src/types"
+    ],
+    "files": [
+        "src/types/card.ts",
+        "src/types/index.ts",
+        "src/types/team.ts",
+        "src/types/user.ts",
+        "src/components/views/DashboardView.tsx",
+        "src/components/views/TimeLineView.tsx"
+    ]   
+  }
